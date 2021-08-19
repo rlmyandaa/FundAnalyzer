@@ -22,3 +22,7 @@ Route::get('/test', function () {
 Route::get('/chart', function () {
     return view('chart');
 });
+Route::get('/summary', function () {
+    return view('summary');
+});
+
